@@ -44,7 +44,8 @@ ENV HOME=/home/steam \
     SERVER_NAME=pzserver \
     STEAM_VAC=true \
     USE_STEAM=true \
-    GENERATE_SETTINGS=true
+    GENERATE_SETTINGS=true \
+    SERVER_BRANCH=""
 
 COPY ./scripts /home/steam/server/
 
